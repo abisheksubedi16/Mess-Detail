@@ -1,0 +1,105 @@
+body{
+  background-color: rgb(235, 235, 235);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.firstp{
+  text-align: center;
+  border: 1px solid black;
+  width: 300px;
+  background-color: rgb(221, 221, 221);
+  padding: 2%;
+}
+.firsth2{
+ text-align: center;
+ position: relative;
+ top: 20px;
+ font-size: 25px;
+}
+.secondp{
+  text-align: center;
+  border: 1px solid black;
+  width: 300px;
+  background-color: rgb(221, 221, 221);
+  padding: 2%;
+}
+.secondh2{
+  text-align: center;
+ position: relative;
+ 
+ top: 20px;
+ font-size: 25px;
+}
+.firstdiv{
+  font-size: 10px;
+  position: relative;
+  top: -30px;
+  left: 250px;
+}
+.thirdp{
+  text-align: center;
+  border: 1px solid black;
+  width: 300px;
+  background-color: rgb(221, 221, 221);
+  padding: 2%;
+}
+.thirdh2{
+  text-align: center;
+  position: relative;
+ top: 20px;
+ font-size: 24px;
+}
+a{
+  
+  text-decoration: none;
+  font-size: 30px;
+}
+.heading{
+  font-size: 50px;
+  cursor: pointer;
+}
+.headinga{
+  color: black;
+}
+@media only screen and (max-width: 600px) {
+  .hrow{
+    width: 300px;
+    
+  }
+
+  .thismess{
+    display: none;
+  }
+}
+.buttonsec{
+  background-color:rgb(160, 199, 199);
+  height: 68vh;
+  padding: 1%;
+  border-radius: 65px 0px 65px 0px;
+}
+button{
+  
+  color: black;
+  background-color: rgb(235, 235, 235);
+  padding: .7%;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+button:hover{
+  transform: rotate(5deg);
+  padding: .8%;
+  background-color: rgb(150, 150, 150);
+  transition: .3s;
+}
+
+.buttons{
+  text-align: center;
+}
+.buttonsechesding{
+  display: flex;
+}
+.thismess{
+  font-size: 30px;
+/*position: relative;
+left:525px;*/
+}
