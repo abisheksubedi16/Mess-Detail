@@ -12,3 +12,9 @@ function abc2(x){
 function def2(x){
     document.getElementById('thismess').innerHTML =`...............................................................................`;
 }
+function abc3(x){
+    document.getElementById('thismess').innerHTML =`What are the Bad Habits of Mess ?`;
+}
+function def3(x){
+    document.getElementById('thismess').innerHTML =`...............................................................................`;
+}
